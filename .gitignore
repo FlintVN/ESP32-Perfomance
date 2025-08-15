@@ -2,3 +2,6 @@
 C-IDF/sdkconfig
 C-IDF/build
 C-IDF/.vscode
+
+# Java-FlintJVM
+FlintJVM/bin
