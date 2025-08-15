@@ -5,3 +5,8 @@ C-IDF/.vscode
 
 # Java-FlintJVM
 FlintJVM/bin
+
+# NanoFramework
+NanoFramework/.vs
+NanoFramework/NanoFramework/bin
+NanoFramework/NanoFramework/obj
