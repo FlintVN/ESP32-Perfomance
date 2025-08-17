@@ -8,7 +8,7 @@
 #include "esp_timer.h"
 
 static void testForLoop() {
-    printf("Start testing");
+    printf("Start testing\n");
     int64_t start = esp_timer_get_time();
     for(int i = 0; i < 10000000; i++)
         asm volatile("");
