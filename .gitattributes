@@ -1,0 +1,7 @@
+C-IDF/CMakeLists.txt linguist-vendored
+C-IDF/main/CMakeLists.txt linguist-vendored
+
+FlintJVM/.vscode/* linguist-vendored
+
+NanoFramework/packages/* linguist-vendored
+NanoFramework/packages/**/* linguist-vendored
