@@ -6,7 +6,7 @@ using System.Device.Gpio;
 namespace NanoFramework {
     public class Program {
         public static void Main() {
-            Debug.WriteLine("Start testing");
+            Console.WriteLine("Start testing");
             testForLoop();
             testWhileLoop();
             testGpio();
@@ -18,7 +18,7 @@ namespace NanoFramework {
 
             }
             long end = DateTime.UtcNow.Ticks;
-            Debug.WriteLine("Test \"for loop\": " + (end - start) / 10000.0);
+            Console.WriteLine("Test \"for loop\": " + (end - start) / 10000.0);
         }
 
         private static void testWhileLoop() {
@@ -28,7 +28,7 @@ namespace NanoFramework {
                 j++;
             }
             long end = DateTime.UtcNow.Ticks;
-            Debug.WriteLine("Test \"for loop\": " + (end - start) / 10000.0);
+            Console.WriteLine("Test \"for loop\": " + (end - start) / 10000.0);
         }
 
         private static void testGpio() {
