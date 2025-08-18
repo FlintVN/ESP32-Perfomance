@@ -1,6 +1,8 @@
 import time
 from machine import Pin
 
+print("Start testing")
+
 # Test for loop
 start = time.ticks_ms()
 for i in range(10_000_000):
