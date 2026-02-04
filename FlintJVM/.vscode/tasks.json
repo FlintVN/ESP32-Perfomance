@@ -7,8 +7,8 @@
             "command": "javac",
             "args": [
                 "-g",
-                "--module-path=\"jdk/java.base.jar;jdk/esp.io.jar\"",
-                "--add-modules=esp.io",
+                "--module-path=\"jdk/java.base.jar;jdk/flint.io.jar\"",
+                "--add-modules=flint.io",
                 "-XDstringConcat=inline",
                 "--system=none",
                 "-d",

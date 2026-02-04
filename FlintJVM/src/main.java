@@ -1,7 +1,7 @@
 
-import esp.machine.*;
+import flint.io.*;
 
-public class main {
+public class Main {
     public static void main(String[] args) throws Exception {
         System.out.println("Start testing");
         testForLoop();

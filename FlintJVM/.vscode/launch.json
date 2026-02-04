@@ -5,13 +5,14 @@
             "type": "flint-debug",
             "request": "launch",
             "name": "Debug with FlintJVM",
-            "cwd": "bin",
-            "port": "COM19",
+            "cwd": "${workspaceFolder}",
+            "port": "COM5",
             "install": true,
-            "mainClass": "main",
+            "mainClass": "Main",
+            "classPath": "bin",
             "sourcePath": "src",
             "modulePath": [
-                "jdk/esp.io.jar",
+                "jdk/flint.io.jar",
                 "jdk/java.base.jar"
             ]
         }
