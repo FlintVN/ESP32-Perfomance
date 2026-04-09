@@ -4,17 +4,7 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "javac",
-            "args": [
-                "-g",
-                "--module-path=\"jdk/java.base.jar;jdk/flint.io.jar\"",
-                "--add-modules=flint.io",
-                "-XDstringConcat=inline",
-                "--system=none",
-                "-d",
-                "bin",
-                "src/*.java"
-            ],
+            "command": "make",
             "presentation": {
                 "echo": false,
                 "reveal": "always",
